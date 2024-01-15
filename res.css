@@ -145,6 +145,12 @@ border: 1px solid orange;
 }
 @media screen and(max-width:360px){
    html{ font-size:70%;}
+    #about_img{
+    width: 230px;
+    height: 220px;
+    border-radius: 50%;
+    margin:auto;
+}
 }
 #menu{
     padding:25px 0 25px 0;
@@ -155,7 +161,7 @@ border: 1px solid orange;
     font-size: 2rem;
     font-family: verdana;
 }
-#menu_row{
+#menu_row,#about_row{
     display:flex;
     padding:0 100px 0 100px;
 }
@@ -215,6 +221,105 @@ font-family: cursive;
     height: 250px;
    margin: auto;
 }
+#about{
+    padding:25px 0 25px 0;
+}
+#about_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about_col{
+    flex:1;
+}
+#about_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:auto;
+}
+#about_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.about_col h1{
+    text-align: center;
+    font-family:cursive;
+
+}
+.about_col p{
+    text-align: justify;
+    font-family: bold;
+    
+}
+#contact{
+    padding: 25px 0 25px 0;
+}
+h1{
+   text-align: center;
+}
+#contact_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    flex-wrap: wrap;
+}
+.contact_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+
+}
+.contact_col p,h3{
+    font-weight: bold;
+    color: #292929;
+    margin:10px;
+
+}
+.contact_col p{
+    text-decoration: none;
+    color: #292929;
+    
+}
+#social a{
+    color: magenta;
+    margin:3px;
+}
+.contact_col form{
+    display: flex;
+    flex-direction: column;
+    background-color: magenta;
+    width: 70%;
+    padding: 20px 40px 20px 20px;
+}
+.contact_col form h2{
+    text-align: center;
+    font-family: cursive;
+}
+.contact_col form input{
+    width:100%;
+    height:17pt;
+    padding: 5px;
+    margin: 5px;
+}
+.contact_col form textarea{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+}
+.contact_col form button{
+    margin: auto;
+    padding:10px;
+    color:#fff;
+    background-color: orange;
+    border:1px solid orange;
+}
+
 #img img{
     width:100%;
     height: 100%;
